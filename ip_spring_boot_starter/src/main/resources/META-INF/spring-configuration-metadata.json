@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "name": "tools.ip",
+      "type": "com.wanfeng.properties.IpProperties",
+      "sourceType": "com.wanfeng.properties.IpProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "tools.ip.cycle",
+      "type": "java.lang.Long",
+      "description": "日志显示周期",
+      "sourceType": "com.wanfeng.properties.IpProperties",
+      "defaultValue": 1
+    },
+    {
+      "name": "tools.ip.cycle-reset",
+      "type": "java.lang.Boolean",
+      "description": "是否周期情况数据",
+      "sourceType": "com.wanfeng.properties.IpProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "tools.ip.model",
+      "type": "java.lang.String",
+      "description": "极简模式还是详细模式",
+      "sourceType": "com.wanfeng.properties.IpProperties"
+    }
+  ],
+  "hints": []
+}
